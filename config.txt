@@ -1,0 +1,28 @@
+##creacion de entorno virtual##
+python -m venv myvenv
+
+##instalar fastapi##
+pip install fastapi
+
+##Intalador de JWT##
+pip install PyJWT
+
+##activar entorno virtual##
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+cd myvenv
+cd .\Scripts\
+.\activate
+
+##correr entorno virtual##
+fastapi dev main.py
+
+##conector de base de datos##
+pip install mysql-connector-python
+
+Get-ExecutionPolicy
+
+Set-ExecutionPolicy Unrestricted
+
+Get-ExecutionPolicy
+
+rasa run --enable-pip --cors "*"
