@@ -1,6 +1,6 @@
 import requests
 from fastapi import HTTPException
-from config.db_config import get_db_connection
+from app.config.db_config import get_db_connection
 import jwt
 from datetime import datetime, timedelta
 

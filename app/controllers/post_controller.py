@@ -1,6 +1,6 @@
 import mysql.connector
 from fastapi import HTTPException
-from config.db_config import get_db_connection
+from app.config.db_config import get_db_connection
 from models.post_model import post
 from fastapi.encoders import jsonable_encoder
 

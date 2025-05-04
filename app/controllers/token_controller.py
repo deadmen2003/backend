@@ -1,6 +1,6 @@
 import mysql.connector
 from fastapi import HTTPException
-from config.db_config import get_db_connection
+from app.config.db_config import get_db_connection
 from models.token_model import Auth
 from datetime import datetime, timedelta
 from fastapi.responses import JSONResponse
