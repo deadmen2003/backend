@@ -1,15 +1,15 @@
 from fastapi import FastAPI
-from routes.token_routes import router as token_router
-from routes.user_routes import router as user_router
-from routes.comunidad_routes import router as comunidad_router
-from routes.contacto_routes import router as contacto_router
-from routes.amistades_routes import router as amistades_router
-from routes.atributo_routes import router as atributo_router
-from routes.atributo_usuario_routes import router as atributo_usuario_router
-from routes.comentario_routes import router as comentario_router
-from routes.post_routes import router as post_router
-from routes.role_routes import router as role_router
-from routes.bitacora_routes import router as bitacora_router
+from app.routes.token_routes import router as token_router
+from app.routes.user_routes import router as user_router
+from app.routes.comunidad_routes import router as comunidad_router
+from app.routes.contacto_routes import router as contacto_router
+from app.routes.amistades_routes import router as amistades_router
+from app.routes.atributo_routes import router as atributo_router
+from app.routes.atributo_usuario_routes import router as atributo_usuario_router
+from app.routes.comentario_routes import router as comentario_router
+from app.routes.post_routes import router as post_router
+from app.routes.role_routes import router as role_router
+from app.routes.bitacora_routes import router as bitacora_router
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
