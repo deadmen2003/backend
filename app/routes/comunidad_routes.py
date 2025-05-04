@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.comunidad_controller import *
+from app.controllers.comunidad_controller import *
 from models.comunidad_model import comunidad
 
 router = APIRouter()

@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.contacto_controller import *
+from app.controllers.contacto_controller import *
 from models.contacto_model import contacto
 
 router = APIRouter()

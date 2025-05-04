@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.post_controller import *
+from app.controllers.post_controller import *
 from models.post_model import post
 
 router = APIRouter()

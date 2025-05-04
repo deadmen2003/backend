@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.user_controller import *
+from app.controllers.user_controller import *
 from models.user_model import User
 from utils import send_email
 

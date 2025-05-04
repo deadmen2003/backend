@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.bitacora_controller import *
+from app.controllers.bitacora_controller import *
 from models.bitacora_model import bitacora
 
 router = APIRouter()

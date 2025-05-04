@@ -1,5 +1,5 @@
 from fastapi import APIRouter,Header, HTTPException
-from controllers.token_controller import *
+from app.controllers.token_controller import *
 from models.token_model import Auth
 from controllers.google_auth import login_google_user
 from fastapi.responses import RedirectResponse

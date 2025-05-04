@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.comentario_controller import comentarioController
+from app.controllers.comentario_controller import comentarioController
 from typing import List
 from models.comentario_model import comentario
 

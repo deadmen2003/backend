@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.amistades_controller import AmistadControlador
+from app.controllers.amistades_controller import AmistadControlador
 from models.amistades_model import Amistad
 from pydantic import BaseModel
 
